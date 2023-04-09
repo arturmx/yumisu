@@ -1,0 +1,117 @@
+.whoarewe {
+    background-color: black;
+    font-family: Inter;
+    font-weight: 400;
+    color:#999999;
+    padding-top:40px;
+
+    &__container {
+        width:80%;
+        margin:auto;
+    }
+    &__phototext {
+        display:flex;
+    }
+    &__photo-div {
+        border-radius:16px;
+        width:100%;
+        align-self:flex-start;
+        overflow:hidden;
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__topphoto {
+        width:100%;
+        object-fit:cover;
+        border-radius:16px;
+        transition: transform 0.5s;
+        display:block;
+        &:hover {
+            transform:scale(1.05)
+        }
+    }
+    &__toptext {
+        margin-left:8vw;
+    }
+    &__h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        color: #FFF;
+        margin-bottom:16px;
+    }
+    &__h6 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom:40px;
+    }
+    &__p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width:240px;
+    }
+    &__line {
+        width:100%;
+        border:1px solid #FFFFFF33;
+        margin:40px 0 32px;
+    }
+    &__bottom {
+        display:flex;
+        gap:35px;
+    }
+    &__column {
+        margin-right:15.3vw;
+    }
+    &__2columns {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__personphoto {
+        align-self:flex-start;
+        width:300px;
+    }
+    &__name,
+    &__years {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    &__job,
+    &__exp {
+        font-size: 12px;
+        line-height: 18px;
+        margin:4px 0 16px;
+    }
+    &__p2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    &__jobdescription {
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 5px;
+    }
+    &__lasttext {
+        margin:39px 0 71px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFF;
+    }
+    &__specs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    &__list {
+        list-style-type: square;
+        margin-top: 40px;
+
+        li {
+            margin-bottom: 20px;
+        }
+    }
+}

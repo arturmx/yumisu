@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.whoarewe {
+  background-color: black;
+  font-family: Inter;
+  font-weight: 400;
+  color: #999999;
+  padding-top: 40px;
+}
+.whoarewe__container {
+  width: 80%;
+  margin: auto;
+}
+.whoarewe__phototext {
+  display: flex;
+}
+.whoarewe__photo-div {
+  border-radius: 16px;
+  width: 100%;
+  align-self: flex-start;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.whoarewe__topphoto {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform 0.5s;
+  display: block;
+}
+.whoarewe__topphoto:hover {
+  transform: scale(1.05);
+}
+.whoarewe__toptext {
+  margin-left: 8vw;
+}
+.whoarewe__h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #FFF;
+  margin-bottom: 16px;
+}
+.whoarewe__h6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+.whoarewe__p {
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 240px;
+}
+.whoarewe__line {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 40px 0 32px;
+}
+.whoarewe__bottom {
+  display: flex;
+  gap: 35px;
+}
+.whoarewe__column {
+  margin-right: 15.3vw;
+}
+.whoarewe__2columns {
+  display: flex;
+  justify-content: space-between;
+}
+.whoarewe__personphoto {
+  align-self: flex-start;
+  width: 300px;
+}
+.whoarewe__name, .whoarewe__years {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.whoarewe__job, .whoarewe__exp {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 4px 0 16px;
+}
+.whoarewe__p2 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.whoarewe__jobdescription {
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 5px;
+}
+.whoarewe__lasttext {
+  margin: 39px 0 71px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFF;
+}
+.whoarewe__specs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.whoarewe__list {
+  list-style-type: square;
+  margin-top: 40px;
+}
+.whoarewe__list li {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
