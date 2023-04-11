@@ -56,11 +56,23 @@ table {
   padding-top: 40px;
 }
 .yumisu__container {
-  width: 80%;
+  width: 1292px;
+  max-width: 100%;
   margin: auto;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 992px) {
+  .yumisu__container {
+    padding: 0 30px;
+  }
 }
 .yumisu__phototext {
   display: flex;
+}
+@media screen and (max-width: 992px) {
+  .yumisu__phototext {
+    flex-direction: column-reverse;
+  }
 }
 .yumisu__photo-div {
   border-radius: 16px;
@@ -75,14 +87,16 @@ table {
   width: 100%;
   object-fit: cover;
   border-radius: 16px;
-  transition: transform 0.5s;
   display: block;
 }
-.yumisu__topphoto:hover {
-  transform: scale(1.05);
-}
 .yumisu__toptext {
-  margin-left: 8vw;
+  margin-left: 60px;
+}
+@media screen and (max-width: 992px) {
+  .yumisu__toptext {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
 }
 .yumisu__h1 {
   font-size: 48px;
@@ -111,6 +125,11 @@ table {
   display: flex;
   gap: 35px;
 }
+@media screen and (max-width: 768px) {
+  .yumisu__bottom {
+    display: block;
+  }
+}
 .yumisu__column {
   margin-right: 15.3vw;
 }
@@ -121,6 +140,12 @@ table {
 .yumisu__personphoto {
   align-self: flex-start;
   width: 300px;
+  max-width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .yumisu__personphoto {
+    margin-bottom: 30px;
+  }
 }
 .yumisu__name, .yumisu__years {
   color: #FFF;
@@ -153,6 +178,19 @@ table {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+}
+@media screen and (max-width: 992px) {
+  .yumisu__specs {
+    display: block;
+  }
+}
+.yumisu__lastimg {
+  max-width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .yumisu__lastimg {
+    margin-bottom: 50px;
+  }
 }
 .yumisu__list {
   list-style-type: square;
